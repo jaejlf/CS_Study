@@ -111,7 +111,7 @@ var emptyFloats: Array<Float> = Array()
   - 시간복잡도: 평균 - `O(N)`
 - insert(\_:at:): at이 가리키는 인덱스에 원소 추가
   - 시간복잡도: `O(N)`
-- `remove(at:), removeSubrange(\_:), removeLast()': 배열에서 원소 삭제
+- `remove(at:), removeSubrange(\_:), removeLast()'`: 배열에서 원소 삭제
 
 ### 3. 배열의 크기 수정
 

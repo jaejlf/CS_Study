@@ -36,12 +36,14 @@
     <img src="https://cdn.programiz.com/sites/tutorial2program/files/full-binary-tree_0.png" height=100>
 
 - 포화 이진 트리(Perfect Binary Tree): 모든 internal node가 2개의 자식을 가지고 모든 leaf node들이 같은 레벨에 속하는 트리
+
   <img src="https://cdn.programiz.com/sites/tutorial2program/files/perfect-binary-tree_0.png" height=100>
 
 - 완전 이진 트리(Complete Binary Tree):
 
 1. 마지막 레벨을 제외하고는 모든 레벨이 완전히 채워져 있다.
 2. 마지막 레벨은 꽉 차 있지 않아도 되지만, 노드가 왼쪽에서 오른쪽으로 채워져야 한다.
+
    <img src="https://cdn.programiz.com/sites/tutorial2program/files/complete-binary-tree_0.png" height=100>
 
 <br>

@@ -54,7 +54,7 @@ FIFO (First In First Out, 선입선출) or LILO (Last In Last Out, 후입후출)
 > 
 <br/>
 데이터의 흐름은 한 쪽으로만 움직임<br/>
-데이터를 추가하는 것을 Enqueue, 꺼내는 것을 Dequeue라고 하지만 Kotlin에서는 offer(), pull()의 함수로 존재
+데이터를 추가하는 것을 Enqueue, 꺼내는 것을 Dequeue라고 하지만 Kotlin에서는 offer(), pull()의 함수로 존재<br/>
 <br/>
 
 ```kotlin

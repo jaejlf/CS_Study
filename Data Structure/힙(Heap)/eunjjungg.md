@@ -77,7 +77,7 @@ Root 노드의 index를 1로 하고 형제 노드끼리는 왼쪽부터 오른�
 1. Max Heap의경우 가장 큰 데이터인 Root Node가, Min Heap의 경우 가장 작은 데이터인 Root Node가 삭제됨
 2. CBT인 Heap의 가장 마지막 Node를 Root 자리에 올림
 3. 자식 노드와 비교하며 Max Heap의 경우 자식 노드의 값보다 작을 때, Min Heap의 경우 자식 노드의 값보다 클 때 자식 노드와 교체 (재배열)
-<br/><br/>
+<br/><br/><br/>
 
 
 # 5. PriorityQueue in Kotlin

@@ -68,10 +68,8 @@ odds.length; // 배열의 길이
 -   ArrayList는 heap에 메모리가 할당된다. (new 키워드를 사용해 생성)
 -   ArrayList는 Array와 달리 크기를 동적으로 늘릴 수 있다.
 -   자료형
-    -    Array  
-        : primitive type (int, string 등), object type
-    -   ArrayList  
-        : object element  
+    -   Array : primitive type (int, string 등), object type
+    -   ArrayList : object element  
         (ex. int는 기본 자료형이기 때문에, int를 객체화 시킨 wrapper클래스인 'Integer'을 사용해야한다.)
 
 <br>

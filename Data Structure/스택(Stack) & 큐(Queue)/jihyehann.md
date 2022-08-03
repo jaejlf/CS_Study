@@ -131,18 +131,7 @@ public CircualrQueue {
 	    queue[rear] = o;
 	}
 	
-	
-	public Object deQueue(Object o) {
-	    if(isEmpty()) { 
-	        return null;
-	    }
-	    
-	    front = (++front) % size;
-	    Object o = queue[front];
-	    return o;
-	}
-	
-	public Object deQueue(Object o) {
+	public Object deQueue() {
 	    if(isEmpty()) { 
 	        return null;
 	    }
@@ -156,7 +145,7 @@ public CircualrQueue {
 	}
 	
 	public boolean isFull() {
-	    return (rear == queueSize-1);
+	    return (rear == size-1);
 	}
 }
 ```

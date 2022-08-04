@@ -71,55 +71,7 @@ node 개수가 n, edge의 개수는 n - 1
 ![image](https://user-images.githubusercontent.com/100047095/182013604-7036f2bb-193f-4807-8d0e-74bd0ee1f272.png)
 
 출처 : [https://genius-dev.tistory.com/entry/Kotlin자료구조-Tree에-대하여-1](https://genius-dev.tistory.com/entry/Kotlin%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0-Tree%EC%97%90-%EB%8C%80%ED%95%98%EC%97%AC-1)
-<br/>
 
-```kotlin
-//Kotlin code
-class Node(
-    var key: Int,
-    var left: Node? = null,
-    var right: Node? = null) 
-
-//find
-fun find(value: Int): Node? = when {
-    this.value > value -> left?.findByValue(value)
-    this.value < value -> right?.findByValue(value)
-    else -> this
-}
-
-//insert 
-fun insert(value: Int) {
-    if (value > this.key) {
-        if (this.right == null) {
-            this.right = Node(value)
-        } else {
-            this.right.insert(value)
-        }
-    } else if (value < this.key) {
-        if (this.left == null) {
-            this.left = Node(value)
-        } else {
-            this.left.insert(value)
-        }
-    }
-}
-
-//removal
-fun delete(value: Int) {
-    when {
-        value > key -> scan(value, this.right, this)
-        value < key -> scan(value, this.left, this)
-        else -> removeNode(this, null)
-    }
-}
-
-//pre-order traversal
-fun visit(): Array<Int> {
-    val a = left?.visit() ?: emptyArray()
-    val b = right?.visit() ?: emptyArray()
-    return a + arrayOf(key) + b
-}
-```
 <br/><br/>
 
 # 3. Binary Tree의 탐색

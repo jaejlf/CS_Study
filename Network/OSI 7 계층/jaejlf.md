@@ -66,7 +66,7 @@
 
 <br>
 
-## 6계층 - 표현 계층 (Presentatino Layer)
+## 6계층 - 표현 계층 (Presentation Layer)
 
 ![image](https://user-images.githubusercontent.com/78673570/184472373-da253f64-1a01-4356-a96d-6a3a12aa32cb.png)
 
@@ -100,4 +100,35 @@
 
 <br>
 
-##
+## 3계층 - 네트워크 계층 (Network Layer)
+
+![image](https://user-images.githubusercontent.com/78673570/184474492-7f9cff0f-db7c-4347-930f-b23ff28ccb2d.png)
+
+- 시스템 간의 네트워크 연결 관리 및 데이터의 교환/중계 담당
+- 네트워크 연결을 설정/유지/해제하는 기능
+- 발신지와 목적지의 논리 주소가 추가된 `패킷`을 최종 목적지까지 전달하는 책임
+- `IP`를 통해 경로를 안내하고, 이를 찾아가는 최단 경로는 `라우팅`을 통해 확인할 수 있다.
+- 경로 설정(Routing), 데이터 교환 및 중계, 트래픽 제어, 패킷 정보 전송 수행
+- 관련 장비 : 라우터
+
+<br>
+
+## 2계층 - 데이터 링크 계층 (Data Link layer)
+
+![image](https://user-images.githubusercontent.com/78673570/184474556-8a20f1a7-1d26-4bb7-a4e3-1e71f4661e95.png)
+
+- 물리 계층을 통해 송신되는 정보의 오류와 흐름을 관리하여 안전한 전송을 할 수 있도록 도와주는 역할
+- `MAC(Media Access Control) Address`를 가지고 통신
+- 흐름제어, 프레임 동기화, 오류 제어, 순서 제어
+- 관련 장비 : 랜카드, 브리지, 스위치
+
+<br>
+
+## 1계층 - 물리 계층 (Physical Layer)
+
+![image](https://user-images.githubusercontent.com/78673570/184474843-1476e1df-6627-42d6-922c-0448b24528df.png)
+
+- 0과 1로 된 데이터를 전기 신호로 바꾸어주는 계층
+- 전송에 필요한 두 장치 간의 실제 접속과 절단 등 기계적/전기적/기능적/절차적 특성에 대한 규칙
+- 통신 케이블로 데이터 전송
+- 관련 장비 : 리피터, 허브

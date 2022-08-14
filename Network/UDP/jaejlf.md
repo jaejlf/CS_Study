@@ -1,9 +1,5 @@
 cf. 데이터의 전달을 담당하는 `전송 계층(Transport Layer)`에서 `TCP`, `UDP` 표준을 사용한다.
 
-### 흐름제어 (Flow Control)
-
-### 혼잡 제어 (Congestion Control)
-
 <br>
 
 # 📍 TCP (Transmission Control Protocol)

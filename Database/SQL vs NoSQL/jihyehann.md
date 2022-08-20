@@ -105,6 +105,11 @@ NoSQL이란 용어는  사람에 따라 No SQL, Not Only SQL, Non-Relational Ope
 
 ### 4. 종류
 
+- Key Value DB
+- Wide Columnar Store
+- Document DB
+- Graph DB
+
 #### 1) Key Value DB
 > Riak, Vodemort, Tokyo 등
 

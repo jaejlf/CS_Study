@@ -130,7 +130,7 @@ Key Value 에서 발전된 형태의 `Column Family` 데이터 모델을 사용�
 Lotus Notes에서 유래되었으며, JSON, XML과 같은 `Collection` 데이터 모델 구조를 채택하고 있다. 
 
 #### 4) Graph DB
-> Neo4J, OreientDB 등
+> Neo4J, OrientDB 등
 
 Euler & Graph Theory에서 유래되었으며 `Nodes`, `Relationship`, `Key-Value` 데이터 모델을 채용하고 있다. 
 

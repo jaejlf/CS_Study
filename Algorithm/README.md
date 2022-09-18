@@ -1,0 +1,17 @@
+## 💡 Algorithm
+- [x] [거품 정렬(Bubble Sort)](https://github.com/jaejlf/CS-Study/tree/main/Algorithm/%EA%B1%B0%ED%92%88%20%EC%A0%95%EB%A0%AC(Bubble%20Sort))
+- [x] [선택 정렬(Selection Sort)](https://github.com/jaejlf/CS-Study/tree/main/Algorithm/%EC%84%A0%ED%83%9D%20%EC%A0%95%EB%A0%AC(Selection%20Sort))
+- [x] [삽입 정렬(Insertion Sort)](https://github.com/jaejlf/CS-Study/tree/main/Algorithm/%EC%82%BD%EC%9E%85%20%EC%A0%95%EB%A0%AC(Insertion%20Sort))
+- [x] [퀵 정렬(Quick Sort)](https://github.com/jaejlf/CS-Study/tree/main/Algorithm/%ED%80%B5%20%EC%A0%95%EB%A0%AC(Quick%20Sort))
+- [ ] 병합 정렬(Merge Sort)
+- [ ] 힙 정렬(Heap Sort)
+- [ ] 기수 정렬(Radix Sort)
+- [ ] 계수 정렬(Count Sort)
+- [ ] 이분 탐색(Binary Search)
+- [ ] 해시 테이블 구현
+- [ ] DFS & BFS
+- [ ] 최장 증가 수열(LIS)
+- [ ] 최소 공통 조상(LCA)
+- [ ] 동적 계획법(Dynamic Programming)
+- [ ] 다익스트라(Dijkstra) 알고리즘
+- [ ] 비트마스크(BitMask)

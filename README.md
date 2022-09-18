@@ -4,11 +4,12 @@
 👩‍💻 study wiki page. https://github.com/jaejlf/CS_Study/wiki
 ```
 
+
 <br>
 
 ## 🎯 스터디 과제
 - CS 토픽 4개에 대해 각자 스터디 후, 지정된 폴더에 `본인이름.md` 파일 업로드
-- 매주 각자 정한 알고리즘 문제(1~5개) 풀이 및 인증 (문제 : wiki 업로드, 인증 : github 코드 링크)
+- 매주 각자 정한 알고리즘 문제(1~5개) 풀이 및 인증 (문제 : [wiki](https://github.com/jaejlf/CS_Study/wiki) 업로드, 인증 : github 코드 링크)
 
 <br><br>
 
@@ -21,9 +22,10 @@
 <br><br>
 
 ## 👨‍👩‍👧‍👧 스터디원
-<a href="https://github.com/jaejlf/CS_Study/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=jaejlf/CS_Study" />
-</a>
+
+|[![](https://github.com/jaejlf.png?size=100)](https://github.com/jaejlf) |[![](https://github.com/weisaube.png?size=100)](https://github.com/weisaube) |[![](https://github.com/jihyehann.png?size=100)](https://github.com/jihyehann) | [![](https://github.com/eunjjungg.png?size=100)](https://github.com/eunjjungg)|
+|:---:|:---:|:---:|:---:|
+| **Jaejeong Sohn** | **Sorin Bae** | **Jihye Han** | **EunJung Jung** |
 
 <br><br>
 

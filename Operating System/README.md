@@ -1,0 +1,16 @@
+## 💡 Operating System
+- [x] [운영체제란](https://github.com/jaejlf/CS-Study/tree/main/Operating%20System/%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C%EB%9E%80)
+- [x] [프로세스 vs 스레드](https://github.com/jaejlf/CS-Study/tree/main/Operating%20System/%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4%20vs%20%EC%8A%A4%EB%A0%88%EB%93%9C)
+- [x] [프로세스 주소 공간](https://github.com/jaejlf/CS-Study/tree/main/Operating%20System/%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4%20%EC%A3%BC%EC%86%8C%20%EA%B3%B5%EA%B0%84)
+- [x] [인터럽트(Interrupt)](https://github.com/jaejlf/CS-Study/tree/main/Operating%20System/%EC%9D%B8%ED%84%B0%EB%9F%BD%ED%8A%B8(Interrupt))
+- [x] [시스템 콜(System Call)](https://github.com/jaejlf/CS-Study/tree/main/Operating%20System/%EC%8B%9C%EC%8A%A4%ED%85%9C%20%EC%BD%9C(System%20Call))
+- [x] [PCB와 Context Switching](https://github.com/jaejlf/CS-Study/tree/main/Operating%20System/PCB%EC%99%80%20Context%20Switching)
+- [x] [IPC(Inter Process Communication)](https://github.com/jaejlf/CS-Study/tree/main/Operating%20System/IPC(Inter%20Process%20Communication))
+- [x] [CPU 스케줄링](https://github.com/jaejlf/CS-Study/tree/main/Operating%20System/CPU%20%EC%8A%A4%EC%BC%80%EC%A4%84%EB%A7%81)
+- [ ] 데드락(DeadLock)
+- [ ] Race Condition
+- [ ] 세마포어(Semaphore) & 뮤텍스(Mutex)
+- [ ] 페이징 & 세그먼테이션 (PDF)
+- [ ] 페이지 교체 알고리즘
+- [ ] 메모리(Memory)
+- [ ] 파일 시스템

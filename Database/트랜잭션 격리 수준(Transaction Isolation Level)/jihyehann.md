@@ -34,7 +34,6 @@
 <img width="60%"
      src="https://user-images.githubusercontent.com/75151848/192092934-8a620050-35c9-4fd2-bc91-12830e09ebe8.png"/>
 
-- SELECT 문장이 수행되는 동안 해당 데이터에 Shared Lock이 걸리지 않는 계층.
 - 트랜잭션에 처리중이거나, 아직 Commit되지 않은 데이터를 다른 트랜잭션이 읽는 것을 허용한다.
 - 데이터베이스의 일관성을 유지하는 것이 불가능하다.
 - Dirty Read, Non-Repeatable Read, Phantom Read 현상이 발생한다.
@@ -46,7 +45,7 @@
 <img width="60%"
      src="https://user-images.githubusercontent.com/75151848/192093078-c3cfc37e-2e81-42bc-a031-5da7c03bb2c6.png"/>
 
-- SELECT 문장이 수행되는 동안 해당 데이터에 Shared Lock이 걸리는 계층. 
+- 트랜잭션이 커밋되어 확정된 데이터만 읽는 것을 허용한다.
 - 트랜잭션이 수행되는 동안 다른 트랜잭션이 접근할 수 없어 대기하게 된다.
 - Commit이 이루어진 트랜잭션만 조회 가능하다.
 - 대부분의 SQL 서버가 Default로 사용하는 Isolation Level이다.
@@ -61,9 +60,8 @@
 <img width="60%"
      src="https://user-images.githubusercontent.com/75151848/192093153-e58d44a4-7ba6-43f0-838f-9d45050db855.png"/>
 
-- 트랜잭션이 완료될 때까지 SELECT 문장이 사용하는 모든 데이터에 Shared Lock이 걸리는 계층.
-- 트랜잭션이 범위 내에서 조회한 데이터 내용이 항상 동일함을 보장한다.
-- 다른 사용자는 트랜잭션 영역에 해당되는 데이터에 대한 수정이 불가능하다.
+- 선행 트랜잭션이 읽은 데이터는 트랜잭션이 종료될 때가지 다른 트랜잭션이 갱신하거나 삭제하지 못하도록 한다.
+- 같은 데이터를 두 번 쿼리했을 때 일관성 있는 결과를 반환한다.
 - MySQL에서 Default로 사용하는 Isolation Level으로, MySQL에서는 트랜잭션마다 트랜잭션 ID를 부여하여 트랜잭션 ID보다 작은 트랜잭션 번호에서 변경한 것만 읽게 된다.
 - 변경되기 전 레코드는 Undo 공간에 백업해두고 실제 레코드 값을 변경한다.
 - Dirty Read와 같은 현상은 발생하지 않지만 Phantom Read 현상은 여전히 발생한다.
@@ -72,9 +70,7 @@
 
 ### 4) Serializable (레벨 3)
 
-- 트랜잭션이 완료될 때까지 SELECT 문장이 사용하는 모든 데이터에 Shared Lock이 걸리는 계층.
-- 완벽한 읽기 일관성 모드를 제공한다.
-- 다른 사용자는 트랜잭션 영역에 해당되는 데이터에 대한 수정 및 입력이 불가능하다.
+- 선행 트랜잭션이 읽은 데이터를 다른 트랜잭션이 수정/삭제하지 못할 뿐만 아니라 중간에 새로운 레코드를 삽입하지 못한다.
 - 가장 엄격한 격리 수준으로 Phantom Read가 발생하지 않는다.
 
 <br/>

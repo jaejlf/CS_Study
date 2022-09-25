@@ -3,10 +3,10 @@
 - [x] [선택 정렬(Selection Sort)](https://github.com/jaejlf/CS-Study/tree/main/Algorithm/%EC%84%A0%ED%83%9D%20%EC%A0%95%EB%A0%AC(Selection%20Sort))
 - [x] [삽입 정렬(Insertion Sort)](https://github.com/jaejlf/CS-Study/tree/main/Algorithm/%EC%82%BD%EC%9E%85%20%EC%A0%95%EB%A0%AC(Insertion%20Sort))
 - [x] [퀵 정렬(Quick Sort)](https://github.com/jaejlf/CS-Study/tree/main/Algorithm/%ED%80%B5%20%EC%A0%95%EB%A0%AC(Quick%20Sort))
-- [ ] 병합 정렬(Merge Sort)
-- [ ] 힙 정렬(Heap Sort)
-- [ ] 기수 정렬(Radix Sort)
-- [ ] 계수 정렬(Count Sort)
+- [x] [병합 정렬(Merge Sort)](https://github.com/jaejlf/CS_Study/tree/main/Algorithm/%EB%B3%91%ED%95%A9%20%EC%A0%95%EB%A0%AC(Merge%20Sort))
+- [x] [힙 정렬(Heap Sort)](https://github.com/jaejlf/CS_Study/tree/main/Algorithm/%ED%9E%99%20%EC%A0%95%EB%A0%AC(Heap%20Sort))
+- [x] [기수 정렬(Radix Sort)](https://github.com/jaejlf/CS_Study/tree/main/Algorithm/%EA%B8%B0%EC%88%98%20%EC%A0%95%EB%A0%AC(Radix%20Sort))
+- [x] [계수 정렬(Count Sort)](https://github.com/jaejlf/CS_Study/tree/main/Algorithm/%EA%B3%84%EC%88%98%20%EC%A0%95%EB%A0%AC(Count%20Sort))
 - [ ] 이분 탐색(Binary Search)
 - [ ] 해시 테이블 구현
 - [ ] DFS & BFS

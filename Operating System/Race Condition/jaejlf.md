@@ -31,4 +31,4 @@
 .
 <br>
 
-💡 예방할 수 있는 방법 : Semaphore(세마포어)와 Mutex(뮤텍스) (cf. [세마포어(Semaphore) & 뮤텍스(Mutex)]())
+💡 예방할 수 있는 방법 : Semaphore(세마포어)와 Mutex(뮤텍스) (cf. [세마포어(Semaphore) & 뮤텍스(Mutex)](https://github.com/jaejlf/CS_Study/blob/main/Operating%20System/%EC%84%B8%EB%A7%88%ED%8F%AC%EC%96%B4(Semaphore)%20%26%20%EB%AE%A4%ED%85%8D%EC%8A%A4(Mutex)/jaejlf.md))

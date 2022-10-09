@@ -8,5 +8,5 @@
 - [x] [인덱스(INDEX)](https://github.com/jaejlf/CS_Study/tree/main/Database/%EC%9D%B8%EB%8D%B1%EC%8A%A4(INDEX))
 - [x] [트랜잭션(Transaction)](https://github.com/jaejlf/CS_Study/tree/main/Database/%ED%8A%B8%EB%9E%9C%EC%9E%AD%EC%85%98(Transaction))
 - [x] [트랜잭션 격리 수준(Transaction Isolation Level)](https://github.com/jaejlf/CS_Study/tree/main/Database/%ED%8A%B8%EB%9E%9C%EC%9E%AD%EC%85%98%20%EA%B2%A9%EB%A6%AC%20%EC%88%98%EC%A4%80(Transaction%20Isolation%20Level))
-- [ ] 저장 프로시저(Stored PROCEDURE)
-- [ ] 레디스(Redis)
+- [x] [저장 프로시저(Stored PROCEDURE)](https://github.com/jaejlf/CS_Study/tree/main/Database/%EC%A0%80%EC%9E%A5%20%ED%94%84%EB%A1%9C%EC%8B%9C%EC%A0%80(Stored%20PROCEDURE))
+- [x] [레디스(Redis)](https://github.com/jaejlf/CS_Study/tree/main/Database/%EB%A0%88%EB%94%94%EC%8A%A4(Redis))

@@ -93,7 +93,7 @@ EXEC printName('wisdom');
 
 <br/> 
 
-## 저장 프로시저(Stored PROCEDURE) 동작 방식
+## 동작 방식
 
 그렇다면 일반적인 SQL문과 어떻게 다른지 동작 방식을 통해 알아보자.
 

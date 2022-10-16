@@ -17,15 +17,20 @@ I/O 작업이 진행되는 동안 User 프로세스는 자신의 작업을 중�
 
 가장 기본적인 I/O 모델로, linux에서 모든 소켓 통신은 기본 blocking으로 동작한다.
 
+<br/>
+
 ![](https://velog.velcdn.com/images/wisdom-one/post/73fe1e6e-528e-437a-9cca-2c5efc6639e5/image.png)
 
 1. 프로세스는 커널에게 read 작업 요청
 2. 데이터가 입력될 때까지 대기
 3. 데이터가 입력된 후 결과가 프로세스에게 전달되면, 프로세스 작업으로 복귀
 
+<br/>
+
 이 방식은 입출력 요청 시, 애플리케이션이 다른 작업을 수행하지 못하고 기다리게 되므로 자원이 낭비될 수 있다.
 
-또한, 여러 Client 가 접속하는 서버를 Blocking 방식으로 구현하게 되면, I/O 작업을 진행하는 작업을 중지할 때 다른 Client가 진행중인 작업을 중지하면 안되므로, client 별로 별도의 Thread를 생성해야 하기 때문에 많아진 Threads 로 컨텍스트 스위칭 횟수가 증가하게 된다는 문제가 있다.
+또한, 여러 Client 가 접속하는 서버의 경우 Blocking 방식이 비효율적이다. <br/>
+I/O 작업을 진행하는 작업을 중지할 때 다른 Client가 진행중인 작업을 중지하면 안되므로, client 별로 별도의 Thread를 생성해야 하기 때문에 많아진 Threads 로 컨텍스트 스위칭 횟수가 증가하게 되기 때문이다.
 
 <br/>
 
@@ -33,6 +38,8 @@ I/O 작업이 진행되는 동안 User 프로세스는 자신의 작업을 중�
 ## Non-Blocking I/O
 
 I/O 작업이 진행되는 동안 User 프로세스의 작업을 중단시키지 않는 방식.
+
+<br/>
 
 ![](https://velog.velcdn.com/images/wisdom-one/post/916039a4-93f0-45b6-8fd6-053b568b780c/image.png)
 

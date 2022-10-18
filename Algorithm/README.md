@@ -7,10 +7,10 @@
 - [x] [힙 정렬(Heap Sort)](https://github.com/jaejlf/CS_Study/tree/main/Algorithm/%ED%9E%99%20%EC%A0%95%EB%A0%AC(Heap%20Sort))
 - [x] [기수 정렬(Radix Sort)](https://github.com/jaejlf/CS_Study/tree/main/Algorithm/%EA%B8%B0%EC%88%98%20%EC%A0%95%EB%A0%AC(Radix%20Sort))
 - [x] [계수 정렬(Count Sort)](https://github.com/jaejlf/CS_Study/tree/main/Algorithm/%EA%B3%84%EC%88%98%20%EC%A0%95%EB%A0%AC(Count%20Sort))
-- [ ] 이분 탐색(Binary Search)
-- [ ] 해시 테이블 구현
-- [ ] DFS & BFS
-- [ ] 최장 증가 수열(LIS)
+- [x] [이분 탐색(Binary Search)](https://github.com/jaejlf/CS_Study/tree/main/Algorithm/%EC%9D%B4%EB%B6%84%20%ED%83%90%EC%83%89(Binary%20Search))
+- [x] [해시 테이블 구현](https://github.com/jaejlf/CS_Study/tree/main/Algorithm/%ED%95%B4%EC%8B%9C%20%ED%85%8C%EC%9D%B4%EB%B8%94%20%EA%B5%AC%ED%98%84)
+- [x] [DFS & BFS](https://github.com/jaejlf/CS_Study/tree/main/Algorithm/DFS%20&%20BFS)
+- [x] [최장 증가 수열(LIS)](https://github.com/jaejlf/CS_Study/tree/main/Algorithm/%EC%B5%9C%EC%9E%A5%20%EC%A6%9D%EA%B0%80%20%EC%88%98%EC%97%B4(LIS))
 - [ ] 최소 공통 조상(LCA)
 - [ ] 동적 계획법(Dynamic Programming)
 - [ ] 다익스트라(Dijkstra) 알고리즘

@@ -21,8 +21,7 @@ LCA란, 두 노드의 가장 가까운 공통 조상 노드를 의미하고, LCA
 2. 모든 노드의 깊이(depth)와 부모 저장
 3. LCA 구하기 <br/>
 i. u, v 중 더 낮은 곳에 있는 노드를 depth가 같아질 때까지 올린다. <br/>
-ii. u, v가 같아질 때까지 두 노드를 모두 올린다. <br/>
-iii. u 혹은 v의 부모가 LCA다.
+ii. u, v가 같아질 때까지 두 노드를 모두 올린다.
   
   
 <br/>
@@ -53,7 +52,7 @@ int lca(int a, int b) {
         b = parent[b];
     }
     
-    // 부모가 LCA
+    // LCA
     return a;
 }
 
